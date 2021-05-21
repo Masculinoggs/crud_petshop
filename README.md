@@ -1,6 +1,6 @@
-# crud_petshop
+# crud_petshop 	:technologist:
 
-<h1>Descrição</h1>
+<h2>Descrição</h2>
 Crud criado como padrão de software: MVC, crud para um sistema de cadastramento de um petshop.  
 
 <h3>Linguagens:</h3>
