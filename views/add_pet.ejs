@@ -1,0 +1,25 @@
+<!-- incluir rodape -->
+<%- include('include/_header') %>
+<!-- /incluir rodape -->
+
+  <!-- Site principal -->
+  <main id="site-main">
+    <div class="container">
+        <div class="box-nav d-flex justify-between">
+           <div class="filter">
+               <a href="/"><i class="fas fa-angle-double-left" ></i> Voltar para lista <i class="fas fa-dog"></i></a>
+           </div>
+        </div>
+        <div class="form-title text-center">
+            <h2 class="text-dark">Adicionar Pet</h2>
+            <span class="text-light">Aqui é local especial para você adicionar o seu pet. Observação: Preencha todos os campos.</span>
+        </div>
+        <!-- adicionar formulário de animal de estimação -->
+        <%- include('include/_form') %>
+    </div>
+</main>
+<!-- /Site principal -->
+
+<!-- incluir rodape -->
+<%- include('include/_footer') %>
+<!-- /incluir rodape -->

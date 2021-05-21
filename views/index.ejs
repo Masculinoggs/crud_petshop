@@ -1,0 +1,39 @@
+<!-- incluir rodape -->
+<%- include('include/_header') %>
+<!-- /incluir rodape -->
+    
+<!-- Principal site -->
+    <main id="site-main">
+        <div class="container">
+            <div class="box-nav d-flex justify-between">
+                <a href="/add-pet" class="border-shadow">
+                    <span class="text-gradient">Adicionar Pet <i class="fas fa-dog"></i></span>
+                </a>
+            </div>
+            <!-- manuseio de formulário -->
+            <form action="/" method="POST">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Identificação</th>
+                            <th>Nome</th>
+                            <th>Idade</th>
+                            <th>Raça</th>
+                            <th>Espécie</th>
+                            <th>Nome do dono</th>
+                            <th>Telefone</th>
+                            <th>Atualizar/Deletar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <%- include('include/_show') %>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </main>
+<!-- /Principal Site -->
+
+<!-- incluir rodape -->
+<%- include('include/_footer') %>
+<!-- /incluir rodape -->

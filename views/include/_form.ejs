@@ -1,0 +1,46 @@
+ <!-- manuseio de formulário -->
+ <form action="/api/pets" method="POST" id="add_pet">
+    <div class="new_pet">
+        <div class="form-group">
+            <label for="Nome" class="text-light">Nome</label>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="nome" value="" >
+        </div>
+       
+        <div class="form-group">
+            <label for="Idade" class="text-light">Idade</label>
+            <input type="text" name="idade" value="" >
+        </div>
+
+        <div class="form-group">
+            <label for="Raca" class="text-light">Raça</label>
+            <input type="text" name="raca" value="" >
+        </div>
+        
+        <div class="form-group">
+            <label for="especie" class="text-light">Espécie</label>
+            <div class="radio inline">
+                <input type="radio" id="radio-2" name="especie" value="Cachorro" >
+                <label for="radio-2" class="radio-label">Cachorro</label>
+            </div>
+            <div class="radio inline">
+                <input type="radio" id="radio-3" name="especie" value="Gato" >
+                <label for="radio-3" class="radio-label">Gato</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="Dono" class="text-light">Dono</label>
+            <input type="text" name="dono" value="" >
+        </div>
+
+        <div class="form-group">
+            <label for="Telefone" class="text-light">Telefone</label>
+            <input type="text" name="telefone" value="" >
+        </div>
+       
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Salvar</button>
+        </div>
+    </div>
+</form>

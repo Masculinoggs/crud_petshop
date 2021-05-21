@@ -1,0 +1,74 @@
+<!-- incluir rodape -->
+<%- include('include/_header') %>
+<!-- /incluir rodape -->
+
+  <!-- Site principal -->
+  <main id="site-main">
+    <div class="container">
+        <div class="box-nav d-flex justify-between">
+            <div class="filter">
+                <a href="/"><i class="fas fa-angle-double-left"></i> Voltar para lista <i class="fas fa-dog"></i></a>
+            </div>
+        </div>
+
+        <div class="form-title text-center">
+            <h2 class="text-dark">Atualizar Pet</h2>
+            <span class="text-light">Local especial para atualizar seu pet ou suas informação</span>
+        </div>
+
+        <!-- adicionar formulário de animal de estimação -->
+         <!-- manuseio de formulário -->
+         <form method="POST" id="update_pet">
+            <div class="new_pet">
+                <div class="form-group">
+                    <label for="Nome" class="text-light">Nome</label>
+                    <input type="hidden" name="id" value="<%= pet._id %>">
+                    <input type="text" name="nome" value="<%= pet.nome %>" >
+                </div>
+
+                <div class="form-group">
+                    <label for="Idade" class="text-light">Idade</label>
+                    <input type="text" name="idade" value="<%= pet.idade%>">
+                </div>
+
+                <div class="form-group">
+                    <label for="Raca" class="text-light">Raça</label>
+                    <input type="text" name="raca" value="<%= pet.raca%>">
+                </div>
+
+                <div class="form-group">
+                    <label for="especie" class="text-light">Espécie</label>
+                    <div class="radio inline">
+                        <input type="radio" id="radio-2" name="especie" value="Cachorro" <%= pet.especie == 'Cachorro' ? 'checked' : '' %>>
+                        <label for="radio-2" class="radio-label">Cachorro</label>
+                    </div>
+
+                    <div class="radio inline">
+                        <input type="radio" id="radio-3" name="especie" value="Gato"  <%= pet.especie == 'Gato' ? 'checked' : '' %> >
+                        <label for="radio-3" class="radio-label">Gato</label>
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="Dono" class="text-light">Dono</label>
+                    <input type="text" name="dono" value="<%= pet.dono%>">
+                </div>
+
+                <div class="form-group">
+                    <label for="Telefone" class="text-light">Telefone</label>
+                    <input type="text" name="telefone" value="<%= pet.telefone%>">
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn text-dark update">Salvar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</main>
+<!-- /Site principal -->
+
+<!-- incluir rodape -->
+<%- include('include/_footer') %>
+<!-- /incluir rodape -->
