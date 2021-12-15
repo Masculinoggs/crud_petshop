@@ -4,7 +4,7 @@
 Crud para um sistema de cadastramento de um petshop.  
 
 <h2>Padrão utilizado:</h2>
-Crud criado como padrão de software: MVC. 
+Padrão de software: MVC. 
 
 <h2>Front-End:</h2>
 HTML<br> 
