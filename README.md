@@ -4,10 +4,10 @@
 Crud criado como padrão de software: MVC. 
 
 <h2>Objetivo</h2>
-crud para um sistema de cadastramento de um petshop.  
+Crud para um sistema de cadastramento de um petshop.  
 
 <h2>Front-End:</h2>
-HTML 
+HTML<br> 
 CSS
 JavaScript 
 
