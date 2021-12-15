@@ -1,10 +1,10 @@
 # crud_petshop 	:technologist:
 
 <h2>Objetivo</h2>
-Crud para um sistema de cadastramento de um petshop.  
+CRUD (Create - Read - Update - Delete) para um sistema de cadastramento de um petshop.  
 
 <h2>Padrão utilizado:</h2>
-Padrão de software: MVC. 
+Padrão de software: MVC (Model - View - Controller). 
 
 <h2>Front-End:</h2>
 HTML<br> 
