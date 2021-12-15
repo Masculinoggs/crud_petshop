@@ -1,17 +1,22 @@
 # crud_petshop 	:technologist:
 
 <h2>Descrição</h2>
-Crud criado como padrão de software: MVC, crud para um sistema de cadastramento de um petshop.  
+Crud criado como padrão de software: MVC. 
 
-<h3>Linguagens:</h3>
-Node js,
-JavaScript e
-MongoDB
+<h3>Objetivo</h3>
+crud para um sistema de cadastramento de um petshop.  
 
-<h3>Marcação de texto:</h3>
-HTML e
+<h4>Linguagens:</h4>
+Node js
+JavaScript 
+
+<h5>Marcação de texto:</h5>
+HTML 
 CSS
 
-<h3>Framework:</h3>
-Express e
+<h6>Framework:</h6>
+Express 
 JQuery
+
+<h7>Banco de Dados</h7>
+MongoDB
