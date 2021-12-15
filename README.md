@@ -3,20 +3,20 @@
 <h2>Descrição</h2>
 Crud criado como padrão de software: MVC. 
 
-<h3>Objetivo</h3>
+<h2>Objetivo</h2>
 crud para um sistema de cadastramento de um petshop.  
 
-<h4>Linguagens:</h4>
-Node js
-JavaScript 
-
-<h5>Marcação de texto:</h5>
+<h2>Front-End:</h2>
 HTML 
 CSS
+JavaScript 
 
-<h6>Framework:</h6>
+<h2>Back-End:</h2>
+Node js
+
+<h2>Framework:</h2>
 Express 
 JQuery
 
-<h7>Banco de Dados</h7>
+<h2>Banco de Dados: </h2>
 MongoDB
